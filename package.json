@@ -28,7 +28,7 @@
   ],
   "author": "Vlad Vahitov",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://elborn666.github.io/GULP-2023/",
   "devDependencies": {
     "@babel/core": "^7.19.1",
     "@babel/polyfill": "^7.12.1",
