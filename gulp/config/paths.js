@@ -20,7 +20,7 @@ const filePaths = {
     scss: `${srcFolder}/scss/style.scss`,
     html: `${srcFolder}/*.html`,
     static: `${srcFolder}/static/**/*.*`,
-    svgIcons: `${srcFolder}/icons/*.svg`,
+    svgicons: `${srcFolder}/svgicons/*.svg`,
   },
   watch: {
     js: `${srcFolder}/js/**/*.js`,

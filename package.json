@@ -9,7 +9,7 @@
     "build": "gulp build --build",
     "zip": "gulp deployZIP --build",
     "deployFTP": "gulp deployFTP --build",
-    "svgSprive": "gulp svgSprive",
+    "sprite": "gulp sprite",
     "deploy": "gh-pages -d dist",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,html,css,md,yaml,yml}\"",
     "predeploy": "npm run build"
@@ -74,6 +74,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "gulp-gh-pages": "^0.5.4",
     "swiper": "^8.4.5"
   }
 }

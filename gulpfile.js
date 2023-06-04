@@ -1,4 +1,5 @@
 import gulp from 'gulp';
+import ghPages from 'gulp-gh-pages';
 import { filePaths } from './gulp/config/paths.js';
 import { plugins } from './gulp/config/plugins.js';
 
@@ -14,7 +15,7 @@ import { scss } from './gulp/tasks/scss.js';
 import { js } from './gulp/tasks/js.js';
 import { images } from './gulp/tasks/images.js';
 import { otfToTtf, ttfToWoff, fontStyle } from './gulp/tasks/fonts.js';
-import { createSvgSprite } from './gulp/tasks/createSvgSprite.js';
+import { sprite } from './gulp/tasks/sprite.js';
 import { zip } from './gulp/tasks/zip.js';
 import { ftp } from './gulp/tasks/ftp.js';
 
@@ -70,4 +71,5 @@ gulp.task('default', dev);
 /**
  * Экспорт сценариев
  */
-export { dev, build, deployZIP, deployFTP, createSvgSprite, isBuild, isDev };
+export { dev, build, deployZIP, deployFTP, isBuild, isDev };
+export { sprite }
